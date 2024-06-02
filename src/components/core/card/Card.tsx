@@ -97,29 +97,36 @@ function Card() {
           </div>
         </div>
 
-        <div className="relative w-full  ">
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-black bg-slate-900 bg-opacity-10 px-32">
+        <div className="relative w-full h-[80vh]">
+          <div className="absolute mx-32 inset-0 flex flex-col items-center justify-start  p-4 pt-16  bg-opacity-10">
             <h3 className="text-3xl font-bold mb-2">Trade In</h3>
-            <p className="text-center text-lg mb-2">
+            <p className="text-lg mb-1">
               For a limited time, get $200- $650 in credit toward a new iPhone
               when you trade in iPhone11 or higher
             </p>
-            <span className="mb-4">New through 6.3</span>
-            <button
-              type="button"
-              className="px-4 py-2 bg-blue-500 text-white rounded">
-              Get Extra Credit
-            </button>
+            <span className="text-gray-400 mb-1">New through 6.3</span>
+            <div className="flex space-x-4">
+              <button
+                type="button"
+                className="px-4 py-2 bg-blue-500 text-white rounded-full">
+                Learn More
+              </button>
+              <button
+                type="button"
+                className="px-4 py-2 border border-blue-500 text-white rounded-full">
+                Buy
+              </button>
+            </div>
           </div>
           <img
-            className="w-fit h-[80vh] object-cover"
+            className="w-full h-full object-cover"
             src="https://support.apple.com/content/dam/edam/applecare/images/en_US/psp_content/tile-feature-appletradein.image.large_2x.png"
             alt=""
           />
         </div>
 
         <div className="relative w-full h-[80vh]">
-          <div className="absolute inset-0 flex flex-col items-center justify-start text-white p-4 pt-16 bg-black bg-opacity-10">
+          <div className="absolute inset-0 flex flex-col items-center justify-start  p-4 pt-16 bg-black bg-opacity-10">
             <h3 className="text-3xl font-bold mb-2">card</h3>
             <span className="text-xl mb-2">Series</span>
             <p className="text-lg mb-4">
