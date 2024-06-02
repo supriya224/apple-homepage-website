@@ -5,6 +5,7 @@ import { MainLayout } from "../layouts";
 import Card from "../components/core/card/Card";
 import Swiper from "../components/core/pagination/Pagination";
 import Discription from "../components/Discription";
+import AutoSwiper from "../components/core/slider/AutoSwiper";
 
 const HomePage: React.FC = () => {
   const images = [
@@ -94,6 +95,9 @@ const HomePage: React.FC = () => {
         </div>
         {/* card */}
         <Card />
+        <div className="w-full object-cover flex items-center justify-center ">
+          <AutoSwiper />
+        </div>
         <Swiper images={images} />
         <Discription />
       </section>
