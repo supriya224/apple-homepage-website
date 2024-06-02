@@ -42,6 +42,7 @@ const Header: React.FC = () => {
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/1724px-Apple_logo_grey.svg.png"
           alt="Apple Logo"
           className="ml-12"
+          loading="lazy"
         />
         <div className="hidden lg:flex gap-4 text-xs">
           {header.map((item, index) => (

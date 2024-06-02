@@ -40,6 +40,7 @@ const Slider: React.FC = () => {
           src={images[currentIndex]}
           alt="Slider Image"
           className="w-full h-auto object-cover"
+          loading="lazy"
         />
       </div>
       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">

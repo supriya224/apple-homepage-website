@@ -10,6 +10,7 @@ function Card() {
               className="w-full h-full object-cover"
               src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202405/wwdc-2024-294410190-16x9_0.jpg?VersionId=eKH7kdIZ2dt6fTpDA.8PYVL9dirjBF5U&size=690:388"
               alt=""
+              loading="lazy"
             />
             <div className="absolute bottom-12 w-full text-white flex justify-center p-4 bg-black bg-opacity-10">
               <div className="w-1/2 text-center">
@@ -19,6 +20,7 @@ function Card() {
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png"
                     alt="Apple Logo"
                     className=" bg-transparent"
+                    loading="lazy"
                   />
                   VWDC24
                 </h3>
@@ -42,6 +44,7 @@ function Card() {
               className="w-full h-full object-cover"
               src=" https://www.apple.com/v/education/college-students/a/images/overview/bento_battery__eu0cuhmxxc4m_large_2x.jpg"
               alt=""
+              loading="lazy"
             />
             <div className="absolute bottom-12 w-full text-white flex justify-center p-4  bg-opacity-10">
               <div className="w-1/2 text-center">
@@ -65,6 +68,7 @@ function Card() {
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png"
                 alt="Apple Logo"
                 className=" bg-transparent"
+                loading="lazy"
               />
               Watch
             </h3>
@@ -87,6 +91,7 @@ function Card() {
             className="w-full h-full object-cover"
             src="https://www.apple.com/newsroom/images/2023/09/apple-introduces-the-advanced-new-apple-watch-series-9/tile/Apple-Watch-S9-hero-230912.jpg.landing-big_2x.jpg"
             alt=""
+            loading="lazy"
           />
         </div>
 
@@ -105,6 +110,7 @@ function Card() {
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/1724px-Apple_logo_grey.svg.png"
                     alt="Apple Logo"
                     className="ml-16"
+                    loading="lazy"
                   />
                   Vision Pro
                 </h3>
@@ -130,6 +136,7 @@ function Card() {
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png"
                 alt="Apple Logo"
                 className=" bg-transparent"
+                loading="lazy"
               />
               Trade In
             </h3>
@@ -155,6 +162,7 @@ function Card() {
             className="w-full h-full object-cover"
             src="https://support.apple.com/content/dam/edam/applecare/images/en_US/psp_content/tile-feature-appletradein.image.large_2x.png"
             alt=""
+            loading="lazy"
           />
         </div>
 
@@ -166,6 +174,7 @@ function Card() {
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png"
                 alt="Apple Logo"
                 className=" bg-transparent"
+                loading="lazy"
               />
               card
             </h3>
@@ -191,6 +200,7 @@ function Card() {
             className="w-full h-full object-cover"
             src="https://www.thinkingtech.in/wp-content/uploads/apple-credit-card.jpg"
             alt=""
+            loading="lazy"
           />
         </div>
       </div>
