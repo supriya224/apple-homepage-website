@@ -4,6 +4,7 @@ import React from "react";
 import { MainLayout } from "../layouts";
 import Card from "../components/core/card/Card";
 import Swiper from "../components/core/pagination/Pagination";
+import Discription from "../components/Discription";
 
 const HomePage: React.FC = () => {
   const images = [
@@ -94,6 +95,7 @@ const HomePage: React.FC = () => {
         {/* card */}
         <Card />
         <Swiper images={images} />
+        <Discription />
       </section>
     </MainLayout>
   );
