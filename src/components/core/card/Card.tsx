@@ -13,7 +13,15 @@ function Card() {
             />
             <div className="absolute bottom-12 w-full text-white flex justify-center p-4 bg-black bg-opacity-10">
               <div className="w-1/2 text-center">
-                <h3 className="text-4xl font-bold mb-2">VWDC24</h3>
+                <h3 className="text-4xl font-bold mb-2 flex gap-2 text-center justify-center items-center">
+                  <img
+                    width={30}
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png"
+                    alt="Apple Logo"
+                    className=" bg-transparent"
+                  />
+                  VWDC24
+                </h3>
                 <p className="mb-4 text-xl">
                   Apple Worldwide Developer Conference. Join us online June
                   10-14.
@@ -51,7 +59,15 @@ function Card() {
 
         <div className="relative w-full h-[80vh]">
           <div className="absolute inset-0 flex flex-col items-center justify-start text-white p-4 pt-16 bg-black bg-opacity-10">
-            <h3 className="text-3xl font-bold mb-2">Watch</h3>
+            <h3 className="text-3xl font-bold mb-2 flex gap-2 text-center justify-center items-center">
+              <img
+                width={30}
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png"
+                alt="Apple Logo"
+                className=" bg-transparent"
+              />
+              Watch
+            </h3>
             <span className="text-xl mb-2">Series</span>
             <p className="text-lg mb-4">Smarter. Brighter. Mightier.</p>
             <div className="flex space-x-4">
@@ -83,7 +99,15 @@ function Card() {
             />
             <div className="absolute bottom-12 w-full flex justify-center  bg-opacity-10">
               <div className="w-1/2 text-center">
-                <h3 className="text-4xl font-bold mb-2">Vision Pro</h3>
+                <h3 className="text-4xl font-bold mb-2 flex gap-2 text-center justify-center items-center">
+                  <img
+                    width={20}
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/1724px-Apple_logo_grey.svg.png"
+                    alt="Apple Logo"
+                    className="ml-16"
+                  />
+                  Vision Pro
+                </h3>
                 <p className="mb-4 text-xl">
                   Welcome to the era of Spatial computing
                 </p>
@@ -98,8 +122,17 @@ function Card() {
         </div>
 
         <div className="relative w-full h-[80vh]">
-          <div className="absolute mx-32 inset-0 flex flex-col items-center justify-start  p-4 pt-16  bg-opacity-10">
-            <h3 className="text-3xl font-bold mb-2">Trade In</h3>
+          <div className="absolute inset-0 flex flex-col  items-center justify-start text-center px-9  pt-16 bg-black bg-opacity-10">
+            <h3 className="text-3xl font-bold mb-2 flex gap-2 text-center justify-center items-center">
+              {" "}
+              <img
+                width={30}
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png"
+                alt="Apple Logo"
+                className=" bg-transparent"
+              />
+              Trade In
+            </h3>
             <p className="text-lg mb-1">
               For a limited time, get $200- $650 in credit toward a new iPhone
               when you trade in iPhone11 or higher
@@ -127,7 +160,15 @@ function Card() {
 
         <div className="relative w-full h-[80vh]">
           <div className="absolute inset-0 flex flex-col items-center justify-start  p-4 pt-16 bg-black bg-opacity-10">
-            <h3 className="text-3xl font-bold mb-2">card</h3>
+            <h3 className="text-3xl font-bold mb-2 flex gap-2 text-center justify-center items-center">
+              <img
+                width={30}
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png"
+                alt="Apple Logo"
+                className=" bg-transparent"
+              />
+              card
+            </h3>
             <span className="text-xl mb-2">Series</span>
             <p className="text-lg mb-4">
               {" "}

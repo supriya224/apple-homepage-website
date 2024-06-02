@@ -43,16 +43,16 @@ const Header: React.FC = () => {
           alt="Apple Logo"
           className="ml-12"
         />
-        <div className="hidden lg:flex gap-9 text-sm">
+        <div className="hidden lg:flex gap-4 text-xs">
           {header.map((item, index) => (
             <ul key={index} className="flex">
               <li>{item.title}</li>
             </ul>
           ))}
         </div>
-        <div className="flex items-center text-blue-500 gap-5">
-          <Search />
-          <Lock />
+        <div className="flex items-center text-zinc-500 gap-5">
+          <Search size={20} />
+          <Lock size={20} />
           <button className="lg:hidden" onClick={toggleMenu}>
             {menuOpen ? <X /> : <Menu />}
           </button>
