@@ -49,3 +49,5 @@ To run this project locally, follow these steps:
     http://localhost:3000
     ```
 ##screenshot
+<img width="1440" alt="Screenshot 2024-06-06 at 1 31 11 PM" src="https://github.com/supriya224/apple-homepage-website/assets/52038704/d780147f-33b0-427a-a33f-db6a1a72454b">
+<img width="1440" alt="Screenshot 2024-06-06 at 1 31 41 PM" src="https://github.com/supriya224/apple-homepage-website/assets/52038704/ee99c312-d820-4410-be32-8d1a8ab743a1">
